@@ -4,6 +4,7 @@ import Banner from '../Components/Banner/Banner';
 import About from '../Components/About/About';
 import Skills from '../Components/Skills/Skills';
 import Projects from '../Components/Projects/Projects';
+import Footer from '../Components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <About></About>
             <Skills></Skills>
             <Projects></Projects>
+            <Footer></Footer>
         </div>
     );
 };

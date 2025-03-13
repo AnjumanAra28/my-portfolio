@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '/src/assets/logo (2).jpg';
 
 const Navbar = () => {
     return (
@@ -23,17 +24,22 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><a href='#about'>About </a></li>
-                        
-                        <li><a href='#skills'>Skills</a></li>
+            
+                        <li><a href='#skills'>My Skills</a></li>
+                        <li><a href='#projects'>My Projects</a></li>
+                        <li><a href='#footer'>Contact Me</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Anjuman Ara</a>
+                <a href="#" className=" md:ml-4 rounded-full text-xl">
+                    <img  src={logo} alt="Logo" className="h-10 w-auto rounded-full" /> 
+                </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 ">
                     <li><a href='#about'>About</a></li>
-                   
-                    <li><a href='#skills'>Skills</a></li>
+                    <li><a href='#skills'>My Skills</a></li>
+                    <li><a href='#projects'>My Projects</a></li>
+                    <li><a href='#footer'>Contact Me</a></li>
                 </ul> 
             </div>
             <div className="navbar-end">
