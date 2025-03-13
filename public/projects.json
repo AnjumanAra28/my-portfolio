@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Bring It Back",
+      "description": "bring it back is a web platform designed to connect individuals who have lost personal belongings with those who may have found them. The site offers functionality for reporting lost items, browsing found items, and facilitating interactions between users to recover items. This project is a practical demonstration of full-stack web development.",
+      "projectUrl": "https://bring-it-back-1534d.web.app"
+    },
+    {
+      "title": "The News Hub",
+      "description": "A dynamic and feature-rich Newspaper website built using React, Firebase, React Router, Node.js, Express, and MongoDB. The platform provides an intuitive and engaging user experience, allowing users to submit, read, and subscribe to premium content while admins manage content seamlessly.",
+      "projectUrl": "https://the-news-hub-5f6bb.web.app"
+    }
+    
+  ]
+  
