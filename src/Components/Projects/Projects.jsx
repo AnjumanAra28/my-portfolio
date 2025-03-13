@@ -11,9 +11,9 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id="projects" className=" text-white py-6 px-6">
+        <section id="projects" className=" text-white py-14 px-6">
             <div className="max-w-5xl mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8">My Projects</h2>
+                <h2 className="text-3xl font-bold mb-8 text-gray-900">My Projects</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
                     {projects.map((project, index) => (
                         <div key={index} className="card bg-gray-800 shadow-xl">
